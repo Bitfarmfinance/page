@@ -1,37 +1,60 @@
-## Welcome to Bitfarm Finance
+##Welcome to Bitfarm - An Automatic Liquidity Acquisition Yield Farm & AMM on Binance Smart Chain.
 
-You can use the [editor on GitHub](https://github.com/Bitfarmfinance/page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+###Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Bitfarm is automatic liquidity acquisition yield farm and AMM decentralized exchange running on Binance Smart Chain with lots of unique and creative features that let you earn and win.
 
-### Function and usecase
+We fully support CAKE-LP v2 staking.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###Main Features
 
-```markdown
-Syntax highlighted code block
+##Automatic Liquidity
 
-# Header 1
-## Header 2
-### Header 3
+Each transfer of BFE must pay a 5% transfer tax. The 4% transfer tax gets added to the liquidity pool through the contract automatically to raise the price floor continuously. And the liquidity will be locked and inaccessible.
 
-- Bulleted
-- List
+​​
 
-1. Numbered
-2. List
+##Automated Burning
 
-**Bold** and _Italic_ and `Code` text
+As we have mentioned above, each transfer of RUSH must pay a 5% transfer tax. The 4% transfer tax will be allocated to automatic liquidity acquisition. And the rest 1% transfer tax will be burned immediately. The whole process is automatic.
 
-[Link](url) and ![Image](src)
-```
+​
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##Harvest Lockup
 
-### Jekyll Themes
+Harvest lockup is a unique rewards lockup mechanism used to limit the frequency of harvest. It is designed to prevent farming arbitrage bots from constantly harvesting and dumping.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bitfarmfinance/page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+​
 
-### Support or Contact
+##Deposit Fee Redistribution
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+A 4% deposit fee will be charged when users enter staking on Bitfarm, we plan to use the deposit fee to add more liquidity buy back pool. This provide instead of the removed liquidity of BFE buyback pool.
+
+
+##BuyBack
+
+Every time this function is called 2% of liquidity is removed and the liquidity is then split into BNB and BFE. BNB market buys BFE. The rest ~99% of the BFE is then burned ~ 1% of BFE sent to caller of the function to incentivize user spending gas.
+
+​
+
+##Referral Program
+
+An on-chain referral program has been implemented to incentivize users to invite friends to join the farming. Inviters can earn 1% of his/her friends' earnings forever.
+
+​
+
+##No Migrator Code
+
+The migrator code in the MasterChef contract has been removed.
+
+
+
+##Timelock
+
+Timelock has been added at launch.
+
+​​​
+
+##Trading Incentive
+
+We plan to add a trading incentive mechanism to our own AMM dex. Users can earn tokens by trading on Bitfarm. But different from traditional trading mining, the rewards on Bitfarm for trading can be different tokens. Other projects can provide their own tokens as rewards for specified trading pairs. More details about it will be published later.
